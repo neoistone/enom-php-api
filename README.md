@@ -1,9 +1,24 @@
 # Enom Php Api 
 
-## live API ## 
+
+```
+$enom = new neoistone\Enom\api('username', 'password','response type json or xml','live api or test api (option param)');
+```
+
+```
+$enom->command('command name ','parameters in array');
+```
+
+```
+// print response
+echo $enom->run();
+```
+
+## Examples ##
+### Live API ###
 ```
 $enom = new neoistone\Enom\api('username','password','response type json or xml');
-enom->command('check',array(
+$enom->command('check',array(
   	'sld' => 'neoistone',
   	'tld' => 'org',
 ));
@@ -11,10 +26,10 @@ echo $enom->run();
 ```
 
 
-## test API ## 
+### Test API ###
 ```
 $enom = new neoistone\Enom\api('username','password','response type json or xml',true);
-enom->command('check',array(
+$enom->command('check',array(
   	'sld' => 'neoistone',
   	'tld' => 'org',
 ));
