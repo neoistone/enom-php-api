@@ -57,6 +57,6 @@ $enom->command('Purchase',array(
 echo $enom->run();
 ?>
 ```
-[More infromtion click here](https://www.enom.com/api/API%20topics/api_Check.htm)
+[More infromtion click here](https://www.enom.com/api/API%20topics/api_Check.htm) [command list](https://www.enom.com/api/API%20topics/api_Command_Categories.htm)
 
 [About Neoistone](https://www.neoistone.com)
